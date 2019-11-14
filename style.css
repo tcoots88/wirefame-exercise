@@ -1,0 +1,95 @@
+header {
+  background-color: black;
+  color: azure;
+  height: 90px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+nav {
+  margin-bottom: 30px;
+  background-color: black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.wrap {
+  margin: 10px 30px 20px 20px 0px;;
+
+}
+nav ul {
+  list-style-type: none;
+  width: 960px;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 23px;
+  vertical-align: middle;
+}
+
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: grey;
+}
+
+section {
+  display: inline-block;
+  padding: 30px 0px 30px 10px;
+  width: 33%;
+  vertical-align: top;
+}
+
+section:last-child {
+  zoom: 1;
+  border: 3px solid black;
+}
+
+.texts {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 450px;
+  margin: auto;
+  margin-left: 12px;
+}
+.texts h3 {
+  font-size: 1.7em;
+}
+.texts p {
+  width: 450px;
+  overflow: hidden;
+  height: 300px;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  padding: 15px;
+}
+
+button {
+  
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px 82px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  height: 120px;
+  margin-top: 30px;
+  background-color:darkgrey;
+}
+main {
+  width: 960px;
+  justify-content: space-evenly;
