@@ -1,8 +1,3 @@
-header {
-  background-color: black;
-  color: azure;
-  height: 90px;
-}
 * {
   box-sizing: border-box;
   margin: 0 auto;
@@ -64,7 +59,7 @@ section:last-child {
 }
 .texts p {
   width: 450px;
-  overflow: hidden;
+  overflow: scroll;
   height: 300px;
   font-size: 1.5em;
   line-height: 1.3em;
@@ -93,3 +88,4 @@ footer {
 main {
   width: 960px;
   justify-content: space-evenly;
+}
